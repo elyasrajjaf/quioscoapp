@@ -1,10 +1,10 @@
 -- CreateTable
-CREATE TABLE "Orden" (
+CREATE TABLE "orden" (
     "id" SERIAL NOT NULL,
     "nombre" TEXT NOT NULL,
     "fecha" TEXT NOT NULL,
     "total" DOUBLE PRECISION NOT NULL,
     "pedido" JSONB NOT NULL,
 
-    CONSTRAINT "Orden_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "orden_pkey" PRIMARY KEY ("id")
 );
